@@ -24,7 +24,7 @@ pipeline{
                     
                     ssh ubuntu@10.1.1.57 /home/ubuntu/apache-tomcat-9.0.115/bin/shutdown.sh
                     
-                    ssh ubuntu@0.1.1.57 /home/ubuntu/apache-tomcat-9.0.115/bin/startup.sh   
+                    ssh ubuntu@10.1.1.57 /home/ubuntu/apache-tomcat-9.0.115/bin/startup.sh   
                 
                 """
             }
